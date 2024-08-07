@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <h1>Hello World! Here is a summary of what I can code in HTML and CSS </h1>
+    <h1>Hello World! Here is a brief summary of what I can code in HTML and CSS </h1>
     
     <meta
       content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -14,12 +14,61 @@
     .box{
         display: block;
         border: 2px solid blue;
+   
     }
+@font-face {
+  src: url('fonts/MutatorSans.ttf');
+  font-family:'MutatorSans';
+  font-style: normal;
+  font-weight: 1 1000;
+}
+
+label {
+  font: 1rem monospace;
+  white-space: nowrap;
+}
+
+.sample {
+  font: 1rem 'MutatorSans', sans-serif;
+  font-weight: 500;
+}
+.small {
+  font-size: 6pt;
+}  
+.smallish {
+  font-size: 8pt;
+}   
+.mediumish {
+  font-size: 10pt;
+} 
+.medium {
+  font-size: 12pt;
+}  
+.big {
+  font-size: 24pt;
+}     
+.uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+      }
+.lighter {
+  font-weight: thin;
+      }
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
     </style>
   </head>
 
   <body>
-    <div class="box"> Text Elements </div>
+    <div class="box"> 
+   Text Elements
+    </div>
     <div class="box"> <h1> Heading 1 </h1>
     <h2> Heading 2 </h2>
     <h3> Heading 3 </h3>
@@ -35,12 +84,13 @@
 <ul> <li> flour </li> 
 <li> water </li> 
 <li> salt </li> </ul> 
-      <p> Ordered list </p>
+      <p> Ordered list 
       <ol>
   <li>mix</li>
   <li>knead</li>
   <li>bake</li>
 </ol>
+      </p>
        <div class="box"> Images </div>
       <div class="box"> 
       <img
@@ -53,7 +103,22 @@
        <p> <a href="https://www.google.com/search?q=smiling+labrador+retreivers&oq=smiling+labrador+retreivers&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyCggFEAAYgAQYogQyCggGEAAYgAQYogQyBggHEEUYPNIBCDYzNThqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8" rel="noopener" target="_blank"
 >A link to see more pictures of smiling Labrador Retrievers</a> </p>
       </div>
-      
-    </div> 
-  </body>
+<div class="box"> Typography </div>
+<div class="box"> 
+               
+
+    <div class="uppercase">Uppercase Text</div> 
+     <div class="bold">Bold Text</div>
+     <div class="lighter">Lighter Text</div> </br>
+     <div class="small">6pt Text</div>
+     <div class="smallish">8pt Text</div>
+     <div class="mediumish">10pt Text</div>                     
+     <div class="medium">12pt Text</div> 
+     <div class="big">24pt Text</div>
+<br />
+<div class="sample">This is an example of a MutatorSans Font </div>
+<div class="cursive">This is an example of a cursive font.</div>
+<div class="fantasy">This is an example of a fantasy font.</div>
+   </div>
+                     </body>
 </html>
